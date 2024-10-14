@@ -1,4 +1,5 @@
 import { Avatar, Dropdown, Navbar } from "flowbite-react";
+import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
@@ -14,7 +15,8 @@ const Nav = () => {
 Foodies Restaurant          </span> */}
         </Navbar.Brand>
         <div className="flex md:order-2">
-          <Dropdown
+          <NavLink to={'/login'} className="bg-[#FFCE6D]">Login</NavLink>
+          <Dropdown className="hiddend">
             arrowIcon={false}
             inline  
             label={
@@ -24,7 +26,7 @@ Foodies Restaurant          </span> */}
                 rounded
               />
             }
-          >
+          
             <Dropdown.Header>
               <span className="block text-sm">Bonnie Green</span>
               <span className="block truncate text-sm font-medium">
