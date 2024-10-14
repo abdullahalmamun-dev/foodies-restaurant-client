@@ -4,7 +4,7 @@ import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
 
 const Nav = () => {
-  const { user, auth, signOut } = useContext(AuthContext); 
+  const { user, signOut } = useContext(AuthContext); 
 
   const handleSignOut = () => {
     signOut()
