@@ -1,7 +1,16 @@
 import { Avatar, Dropdown, Navbar } from "flowbite-react";
 import { NavLink } from "react-router-dom";
+import { useContext } from "react";
+import { AuthContext } from "../../providers/AuthProvider";
 
 const Nav = () => {
+  const { user, auth, signOut } = useContext(AuthContext); 
+
+  const handleSignOut = () => {
+    signOut()
+
+  }
+
   return (
     <div>
       <Navbar fluid rounded className="bg-[#101418] text-[#FFC] mt-10">
@@ -11,40 +20,27 @@ const Nav = () => {
             className="mr-3 md:h-20 h-9 md:w-20"
             alt="Foodies Restaurant Logo"
           />
-          {/* <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white uppercase">
-Foodies Restaurant          </span> */}
         </Navbar.Brand>
         <div className="flex md:order-2">
-          <NavLink to={'/login'} className="bg-[#FFCE6D]">Login</NavLink>
-          <Dropdown className="hiddend">
-            arrowIcon={false}
-            inline  
-            label={
-              <Avatar
-                alt="User settings"
-                img=""
-                rounded
-              />
-            }
-          
-            <Dropdown.Header>
-              <span className="block text-sm">Bonnie Green</span>
-              <span className="block truncate text-sm font-medium">
-                name@flowbite.com
-              </span>
-            </Dropdown.Header>
-            <Dropdown.Item>Dashboard</Dropdown.Item>
-            <Dropdown.Item>Settings</Dropdown.Item>
-            <Dropdown.Item>Earnings</Dropdown.Item>
-            <Dropdown.Divider />
-            <Dropdown.Item>Sign out</Dropdown.Item>
-          </Dropdown>
+          {user ? (
+            <Dropdown className="bg-[#FFCE6D] text-[#101418] text-2xl" inline label={<Avatar alt="User settings" img={user.photoURL} rounded />} arrowIcon={false}>
+              <Dropdown.Header className="bg-[#FFCE6D] text-[#101418]">
+                <span className="block text-lg">{user.displayName || 'User'}</span>
+                <span className="block truncate text-sm font-medium"><span className="font-black">Email:</span>  {user.email}</span>
+              </Dropdown.Header>
+              <Dropdown.Item className="hover:bg-[#101418] hover:text-[#FFCE6D]">Dashboard</Dropdown.Item>
+              <Dropdown.Item className="hover:bg-[#101418] hover:text-[#FFCE6D]">Settings</Dropdown.Item>
+              <Dropdown.Item className="hover:bg-[#101418] hover:text-[#FFCE6D]">Earnings</Dropdown.Item>
+
+              <Dropdown.Item className="hover:bg-[#101418] hover:text-[#FFCE6D]" onClick={handleSignOut}>Sign out</Dropdown.Item>
+            </Dropdown>
+          ) : (
+            <NavLink to={'/login'} className="bg-[#FFCE6D] text-[#101418] font-black px-4 py-2 rounded">Login</NavLink>
+          )}
           <Navbar.Toggle />
         </div>
         <Navbar.Collapse>
-          <Navbar.Link className="text-[#FFC] text-2xl" href="/">
-            Home
-          </Navbar.Link>
+          <Navbar.Link className="text-[#FFC] text-2xl" href="/">Home</Navbar.Link>
           <Navbar.Link className="text-[#FFC] text-2xl" href="/AllFoods">All Foods</Navbar.Link>
           <Navbar.Link className="text-[#FFC] text-2xl" href="/gallery">Gallery</Navbar.Link>
           <Navbar.Link className="text-[#FFC] text-2xl" href="/about">About</Navbar.Link>
