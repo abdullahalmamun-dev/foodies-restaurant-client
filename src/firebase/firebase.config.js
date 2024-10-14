@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB_FUuaCxfzqoPQ9BvcO_S8yn0dDgMWOfs",
-  authDomain: "foodies-restaurant-88af5.firebaseapp.com",
-  projectId: "foodies-restaurant-88af5",
-  storageBucket: "foodies-restaurant-88af5.appspot.com",
-  messagingSenderId: "610128268197",
-  appId: "1:610128268197:web:e8fad9cb7c4f8deaf4b64c"
+  apiKey: import.meta.env.VITE_apiKey,
+  authDomain: import.meta.env.VITE_authDomain,
+  projectId: import.meta.env.VITE_projectId,
+  storageBucket: import.meta.env.VITE_storageBucket,
+  messagingSenderId: import.meta.env.VITE_messagingSenderId,
+  appId: import.meta.env.VITE_appId,
 };
 
 // Initialize Firebase

@@ -29,7 +29,7 @@ const All_Foods = () => {
   return (
     <div className="px-5">
               <div className="bg-banner h-[40vh] grid items-center justify-center text-center content-center my-10">
-        <h1 className="text-xl md:text-6xl dancing text-[#FFCE6D] mb-5">
+        <h1 className="text-3xl md:text-6xl dancing text-[#FFCE6D] mb-5">
           All Foods
         </h1>
         <h3 className="text-white text-sm md:text-xl">

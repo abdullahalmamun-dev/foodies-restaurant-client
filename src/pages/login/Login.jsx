@@ -1,4 +1,33 @@
+import { useContext } from "react";
+import { AuthContext } from "../../providers/AuthProvider";
+
 const Login = () => {
+
+  const { signIn } = useContext(AuthContext);
+
+const handleSubmit = event => {
+  event.preventDefault();
+  const form = event.target;
+  const email = form.email.value;
+  const password = form.password.value;
+  console.log(email, password);
+
+  signIn(email, password)
+  .then(result => {
+    const user = result.user
+    console.log(user);
+  })
+  .then(error => {
+    console.log(error);
+  })
+
+}
+
+
+
+
+
+
   return (
     <div>
       <div className="bg-banner h-[40vh] grid items-center justify-center text-center content-center my-4 md:my-10">
@@ -17,13 +46,15 @@ const Login = () => {
               Let&apos;s Start Your Dinner With Us
             </p>
           </div>
-          <form className="space-y-3 md:space-y-10">
+          <form onSubmit={handleSubmit} className="space-y-3 md:space-y-10">
             <input
+            name="email"
               type="email"
               placeholder="Email"
               className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:[#FFCE6D]"
             />
             <input
+            name="password"
               type="password"
               placeholder="Password"
               className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:[#FFCE6D]"
