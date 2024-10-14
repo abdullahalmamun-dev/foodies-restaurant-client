@@ -11,7 +11,7 @@ const About = () => {
                 <NavLink to={'/about'} className="text-white text-xs md:text-lg border-solid border-white border-2 p-2 rounded-xl hover:text-[#FFCE6D] hover:border-[#FFCE6D]">Read more</NavLink>
             </div>
             <div className="mx-auto mt-5 md:mt-10">
-                <img src="/public/about.png" alt="" />
+                <img src="/about.png" alt="" />
             </div>
         </div>
     );

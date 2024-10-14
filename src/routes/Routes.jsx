@@ -8,6 +8,7 @@ import Gallery from "../pages/gallery/Gallery";
 import Contact from "../pages/contact/Contact";
 import Login from "../pages/login/Login";
 import Register from "../pages/register/Register";
+import All_Foods from "../pages/All_Foods/All_Foods";
 
   const router = createBrowserRouter([
     {
@@ -37,6 +38,10 @@ import Register from "../pages/register/Register";
         {
           path: "/register",
           element: <Register></Register>,
+        },
+        {
+          path: "/AllFoods",
+          element: <All_Foods></All_Foods>,
         }
       ]
     },

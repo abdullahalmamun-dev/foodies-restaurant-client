@@ -45,7 +45,7 @@ Foodies Restaurant          </span> */}
           <Navbar.Link className="text-[#FFC] text-2xl" href="/">
             Home
           </Navbar.Link>
-          <Navbar.Link className="text-[#FFC] text-2xl" href="#">All Foods</Navbar.Link>
+          <Navbar.Link className="text-[#FFC] text-2xl" href="/AllFoods">All Foods</Navbar.Link>
           <Navbar.Link className="text-[#FFC] text-2xl" href="/gallery">Gallery</Navbar.Link>
           <Navbar.Link className="text-[#FFC] text-2xl" href="/about">About</Navbar.Link>
           <Navbar.Link className="text-[#FFC] text-2xl" href="/contact">Contact</Navbar.Link>
