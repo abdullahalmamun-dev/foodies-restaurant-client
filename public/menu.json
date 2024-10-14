@@ -1,0 +1,202 @@
+[
+  {
+    "_id": "61f7e48f0c651345677b7775",
+    "name": "Spaghetti Carbonara",
+    "photoUrl": "https://i.ibb.co.com/6P8YJHG/Spaghetti-Carbonara.jpg",
+    "quantity": 50,
+    "numberOfSales": 120,
+    "description": "Classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
+    "price": 12.99,
+    "category": "Pasta"
+  },
+  {
+    "_id": "61f7e48f0c651345677b7776",
+    "name": "Margherita Pizza",
+    "photoUrl": "https://i.ibb.co.com/r2V8D6B/Margherita-Pizza.jpg",
+    "quantity": 30,
+    "numberOfSales": 200,
+    "description": "Traditional pizza topped with fresh tomatoes, mozzarella cheese, and basil.",
+    "price": 10.99,
+    "category": "Pizza"
+  },
+  {
+    "_id": "61f7e48f0c651345677b7777",
+    "name": "Caesar Salad",
+    "photoUrl": "https://i.ibb.co.com/0F8KFtv/Caesar-Salad.jpg",
+    "quantity": 40,
+    "numberOfSales": 150,
+    "description": "Crisp romaine lettuce with Caesar dressing, croutons, and parmesan cheese.",
+    "price": 8.99,
+    "category": "Salad"
+  },
+  {
+    "_id": "61f7e48f0c651345677b7778",
+    "name": "Tiramisu",
+    "photoUrl": "https://i.ibb.co.com/p1HHG0G/Tiramisu.jpg",
+    "quantity": 25,
+    "numberOfSales": 90,
+    "description": "Delicious coffee-flavored Italian dessert made with mascarpone cheese.",
+    "price": 6.99,
+    "category": "Dessert"
+  },
+  {
+    "_id": "61f7e48f0c651345677b7779",
+    "name": "Pesto Pasta",
+    "photoUrl": "https://i.ibb.co.com/mbyKct4/Pesto-Pasta.jpg",
+    "quantity": 35,
+    "numberOfSales": 110,
+    "description": "Pasta tossed in a flavorful basil pesto sauce.",
+    "price": 11.99,
+    "category": "Pasta"
+  },
+  {
+    "_id": "61f7e48f0c651345677b777a",
+    "name": "Lasagna",
+    "photoUrl": "https://i.ibb.co.com/mhY8n1Y/Lasagna.jpg",
+    "quantity": 20,
+    "numberOfSales": 80,
+    "description": "Layered pasta dish with meat, cheese, and tomato sauce.",
+    "price": 13.99,
+    "category": "Pasta"
+  },
+  {
+    "_id": "61f7e48f0c651345677b777b",
+    "name": "Bruschetta",
+    "photoUrl": "https://i.ibb.co.com/Vxpck8y/Bruschetta.jpg",
+    "quantity": 60,
+    "numberOfSales": 140,
+    "description": "Grilled bread topped with diced tomatoes, garlic, and basil.",
+    "price": 5.99,
+    "category": "Appetizer"
+  },
+  {
+    "_id": "61f7e48f0c651345677b777c",
+    "name": "Risotto",
+    "photoUrl": "https://i.ibb.co.com/GQhSHwX/Risotto.jpg",
+    "quantity": 15,
+    "numberOfSales": 70,
+    "description": "Creamy Italian rice dish cooked with broth and flavored with various ingredients.",
+    "price": 14.99,
+    "category": "Rice Dish"
+  },
+  {
+    "_id": "61f7e48f0c651345677b777d",
+    "name": "Fettuccine Alfredo",
+    "photoUrl": "https://i.ibb.co.com/jDk1dWG/Fettuccine-Alfredo.jpg",
+    "quantity": 45,
+    "numberOfSales": 130,
+    "description": "Fettuccine pasta in a rich and creamy parmesan cheese sauce.",
+    "price": 11.99,
+    "category": "Pasta"
+  },
+  {
+    "_id": "61f7e48f0c651345677b777e",
+    "name": "Caprese Salad",
+    "photoUrl": "https://i.ibb.co.com/wgrzR5R/Caprese-Salad.jpg",
+    "quantity": 55,
+    "numberOfSales": 160,
+    "description": "Salad made with fresh mozzarella, tomatoes, basil, and balsamic glaze.",
+    "price": 9.99,
+    "category": "Salad"
+  },
+  {
+    "_id": "61f7e48f0c651345677b777f",
+    "name": "Eggplant Parmesan",
+    "photoUrl": "https://i.ibb.co.com/Ybd8KVZ/Eggplant-Parmesan.jpg",
+    "quantity": 10,
+    "numberOfSales": 50,
+    "description": "Layers of breaded eggplant, marinara sauce, and melted cheese.",
+    "price": 12.99,
+    "category": "Vegetarian"
+  },
+  {
+    "_id": "61f7e48f0c651345677b7780",
+    "name": "Panna Cotta",
+    "photoUrl": "https://i.ibb.co.com/bX329ms/Panna-Cotta.jpg",
+    "quantity": 15,
+    "numberOfSales": 65,
+    "description": "Creamy Italian dessert made from sweetened cream thickened with gelatin.",
+    "price": 6.49,
+    "category": "Dessert"
+  },
+  {
+    "_id": "61f7e48f0c651345677b7781",
+    "name": "Gnocchi",
+    "photoUrl": "https://i.ibb.co.com/VJWN126/Gnocchi.jpg",
+    "quantity": 40,
+    "numberOfSales": 100,
+    "description": "Soft potato dumplings served with various sauces.",
+    "price": 10.49,
+    "category": "Pasta"
+  },
+  {
+    "_id": "61 f7 e48 f0 c65 i134567 b77 bb",
+    "name": "Stuffed Peppers",
+    "photoUrl": "https://i.ibb.co.com/Tg4CX9d/Stuffed-Peppers.jpg",
+    "quantity": 20,
+    "numberOfSales ": 75,
+    "description": "Bell peppers filled with a mixture of rice, meat, and spices.",
+    "price": 11.49,
+    "category": "Vegetarian"
+  },
+  {
+    "_id": "61 f7 e48 f0 c65 i134567 b77 cc",
+    "name": "Pork Scaloppine",
+    "photoUrl": "https://i.ibb.co.com/nRst1Lw/Pork-Scaloppine.jpg",
+    "quantity": 30,
+    "numberOfSales": 85,
+    "description": "Thinly sliced pork cooked in a lemon butter sauce.",
+    "price": 13.49,
+    "category": "Meat"
+  },
+  {
+    "_id": "61 f7 e48 f0 c65 i134567 b77 dd",
+    "name": "Seafood Risotto",
+    "photoUrl": "https://i.ibb.co.com/RYb1bKW/Seafood-Risotto.jpg",
+    "quantity": 25,
+    "numberOfSales ": 60,
+    "description": "Creamy risotto cooked with shrimp and scallops.",
+    "price": 14.49,
+    "category": "Seafood"
+  },
+  {
+    "_id": "61 f7 e48 f0 c65 i134567 b77 ee",
+    "name": "Chocolate Lava Cake",
+    "photoUrl": "https://i.ibb.co.com/5RNqcvV/Chocolate-Lava-Cake.jpg",
+    "quantity": 35,
+    "numberOfSales": 110,
+    "description": "Decadent chocolate cake with a molten center.",
+    "price": 7.99,
+    "category": "Dessert"
+  },
+  {
+    "_id": "61 f7 e48 f0 c65 i134567 b77 ff",
+    "name": "Fried Calamari ",
+    "photoUrl": "https://i.ibb.co.com/1sXF8hw/Fried-Calamari.jpg",
+    "quantity": 50,
+    "numberOfSales": 140,
+    "description": "Crispy fried squid served with marinara sauce.",
+    "price": 8.49,
+    "category": "Appetizer"
+  },
+  {
+    "_id": "61 f7 e48 f0 c65 i134567 b77 gg ",
+    "name": "Limoncello Sorbet ",
+    "photoUrl": "https://i.ibb.co.com/L0pdv2h/Limoncello-Sorbet.jpg",
+    "quantity": 15,
+    "numberOfSales": 55,
+    "description": "Refreshing lemon sorbet made with limoncello liqueur.",
+    "price": 5.99,
+    "category": "Dessert"
+  },
+  {
+    "_id": "61 f7 e48 f0 c65 i134567 b77 hh ",
+    "name": "Pistachio Gelato ",
+    "photoUrl": "https://i.ibb.co.com/Lng4YRq/Pistachio-Gelato.jpg",
+    "quantity": 20,
+    "numberOfSales": 90,
+    "description": "Creamy gelato infused with real pistachios.",
+    "price": 6.99,
+    "category": "Dessert"
+  }
+]
