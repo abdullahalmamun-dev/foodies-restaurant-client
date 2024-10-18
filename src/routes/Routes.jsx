@@ -10,6 +10,7 @@ import Login from "../pages/login/Login";
 import Register from "../pages/register/Register";
 import All_Foods from "../pages/All_Foods/All_Foods";
 import Menu from "../pages/All_Foods/Menu";
+import BookNow from "../pages/booknow/OrderNow";
 
   const router = createBrowserRouter([
     {
@@ -47,6 +48,11 @@ import Menu from "../pages/All_Foods/Menu";
         {
           path: "/AllFoods/:id",
           element: <Menu></Menu>,
+          loader: ({params}) => fetch(`http://localhost:5000/menu/${params.id}`)
+        },
+        {
+          path: "/ordernow/:id",
+          element: <BookNow></BookNow>,
           loader: ({params}) => fetch(`http://localhost:5000/menu/${params.id}`)
         }
       ]

@@ -3,6 +3,7 @@ import { NavLink, useLoaderData } from "react-router-dom";
 const Menu = () => {
   const menu = useLoaderData();
   const {
+    _id,
     name,
     photoUrl,
     description,
@@ -60,7 +61,7 @@ const Menu = () => {
         <div>
           <img className="mb-10" src={photoUrl} alt="" />
           <div className="text-center ">
-          <NavLink className="text-[#101418] bg-[#FFCE6D] md:px-4 md:py-4 text-xl rounded-2xl hover:text-[#FFCE6D] hover:bg-[#101418] px-2 py-2 md:font-semibold" >Order Now </NavLink>
+          <NavLink to={`/ordernow/${_id}`} className="text-[#101418] bg-[#FFCE6D] md:px-4 md:py-4 text-xl rounded-2xl hover:text-[#FFCE6D] hover:bg-[#101418] px-2 py-2 md:font-semibold" >Order Now </NavLink>
           </div>
         </div>
       </div>
