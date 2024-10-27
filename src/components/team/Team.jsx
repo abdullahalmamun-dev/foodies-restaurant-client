@@ -1,10 +1,10 @@
 const Team = () => {
   return (
-    <div className="bg-slate-500 bg-opacity-20 px-4 md:px-10 md:py-20 py-4 rounded-sm">
-      <h1 className="text-3xl md:text-4xl pb-5 md:pb-10 text-[#FFCE6D] dancing text-center md:mb-10 mb-4">
+    <div className="bg-slate-500 bg-opacity-20 px-4 md:px-10 md:py-20 py-20 rounded-sm">
+      <h1 className="text-3xl md:text-4xl pb-16 md:pb-10 text-[#FFCE6D] dancing text-center md:mb-10 mb-4">
         Our Team
       </h1>
-      <div className="md:flex gap-5 justify-center" >
+      <div className="md:flex gap-5 justify-center md:mx-0 mx-5 md:space-y-0 space-y-10" >
         <div className="bg-slate-500 bg-opacity-20 md:p-4 rounded-sm p-2 mb-2">
             <img className="w-full" src="/Team/1.png" alt="" />
             <h1 className="text-[#FFC] text-center text-lg md:text-2xl">Johnathan Demario</h1>

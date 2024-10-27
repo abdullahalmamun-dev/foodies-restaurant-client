@@ -2,14 +2,14 @@ const Ingridients = () => {
   return (
     <div>
       <div className="md:flex gap-20 px-2 md:px-0 my-auto text-center">
-        <div className=" ">
+        <div>
           <img
             className="mt-5 md:mt-10 md:ml-12"
             src="/ingridients.png"
             alt=""
           />
         </div>
-        <div className="md:w-1/2 md:">
+        <div className="md:w-1/2 md:mx-0 mx-8 mt-10 md:mt-0">
           <h1 className="text-3xl md:text-4xl pt-4 md:pt-10 pb-5 md:pb-4 text-[#FFCE6D] dancing text-center md:text-right ">
             Ingridients
           </h1>
@@ -30,33 +30,35 @@ const Ingridients = () => {
           </button>
         </div>
       </div>
-      <div className="bg-[#101418] bg-opacity-70 justify-center my-5 md:my-20 py-5 md:py-16 md:flex md:px-32 md:gap-48 mx-auto grid gap-5">
-        <div className="flex md:gap-5 items-center">
-            <div>
-                <img className="w-12" src="/Special/dish 1.png" alt="" />
-            </div>
-            <div>
-                <p className="text-[#FFCE6D] text-2xl md:text-5xl font-bold">250+</p>
-                <p className="text-white text-xs text-center">Delicacy</p>
-            </div>
+      <div className="bg-[#101418] bg-opacity-70 justify-center my-5 md:my-20 py-10 md:py-16 md:flex md:px-32 md:gap-48 mx-auto grid gap-12">
+        <div className="flex gap-4 md:gap-5 items-center">
+          <div>
+            <img className="w-12" src="/Special/dish 1.png" alt="" />
+          </div>
+          <div>
+            <p className="text-[#FFCE6D] text-2xl md:text-5xl font-bold">
+              250+
+            </p>
+            <p className="text-white text-xs text-center">Delicacy</p>
+          </div>
         </div>
-        <div className="flex md:gap-5 items-center">
-            <div>
-                <img className="w-12" src="/Special/chef1.png" alt="" />
-            </div>
-            <div>
-                <p className="text-[#FFCE6D] text-2xl md:text-5xl font-bold">10+</p>
-                <p className="text-white text-xs text-center">Reknowned Chefs</p>
-            </div>
+        <div className="flex gap-4 md:gap-5 items-center">
+          <div>
+            <img className="w-12" src="/Special/chef1.png" alt="" />
+          </div>
+          <div>
+            <p className="text-[#FFCE6D] text-2xl md:text-5xl font-bold">10+</p>
+            <p className="text-white text-xs text-center">Reknowned Chefs</p>
+          </div>
         </div>
-        <div className="flex md:gap-5 items-center">
-            <div>
-                <img className="w-12" src="/Special/team.png" alt="" />
-            </div>
-            <div>
-                <p className="text-[#FFCE6D] text-2xl md:text-5xl font-bold">30+</p>
-                <p className="text-white text-xs text-center">Members</p>
-            </div>
+        <div className="flex gap-4 md:gap-5 items-center">
+          <div>
+            <img className="w-12" src="/Special/team.png" alt="" />
+          </div>
+          <div>
+            <p className="text-[#FFCE6D] text-2xl md:text-5xl font-bold">30+</p>
+            <p className="text-white text-xs text-center">Members</p>
+          </div>
         </div>
       </div>
     </div>

@@ -19,9 +19,9 @@ const All_Foods_Card = ({ food }) => {
         <p className="font-normal md:text-lg text-white text-center">
           {description}
         </p>
-        <div className="flex justify-between">
+        <div className="flex justify-between items-center">
         <p className=" md:text-2xl text-[#FFC] md:px-5 rounded-xl text-center py-2 md:font-bold">Price: <span className="font-bold text-xl">${price}</span></p>
-        <NavLink to={`/AllFoods/${_id}`} className="bg-[#FFC] text-md md:text-xl hover:text-[#FFCE6D] hover:bg-[#101418] text-gray-800 px-2 md:px-5 rounded-xl text-center py-2 font-bold">View More</NavLink>
+        <NavLink to={`/AllFoods/${_id}`} className="bg-[#FFC] text-xs md:text-xl hover:text-[#FFCE6D] hover:bg-[#101418] text-gray-800 px-3 md:px-5 rounded-md text-center py-2 ">View More</NavLink>
         </div>
       </Card>
     </div>

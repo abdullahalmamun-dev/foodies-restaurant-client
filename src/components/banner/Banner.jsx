@@ -1,7 +1,7 @@
 const Banner = () => {
   return (
     <div className="relative bg-banner h-screen my-5 md:my-10 flex items-center justify-center text-center">
-      <div className="absolute inset-0 bg-black opacity-40"></div>
+      <div className="absolute inset-0 bg-black opacity-60"></div>
       <div className="relative z-10 p-10">
         <h1 className="md:px-72  text-3xl md:text-7xl font-bold text-[#FFC] mb-5 md:mb-16">
           Welcome To Foodies Restaurant

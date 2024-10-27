@@ -7,14 +7,14 @@ import Team from "../../components/team/Team";
 
 const Home = () => {
   return (
-    <>
+    <div className="md:space-y-36 space-y-20 md:my-20">
       <Banner></Banner>
       <About></About>
       <Special></Special>
       <Ingridients></Ingridients>
       <Team></Team>
       <Reviews></Reviews>
-    </>
+    </div>
   );
 };
 
