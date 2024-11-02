@@ -1,4 +1,4 @@
-import { Avatar, Dropdown, Navbar } from "flowbite-react";
+import { Dropdown, Navbar } from "flowbite-react";
 import { NavLink } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
@@ -25,7 +25,7 @@ const Nav = () => {
             <Dropdown
               className="bg-[#FFCE6D] text-[#101418] text-xl"
               inline
-              label={<img className="rounded-full w-7 mr-2 md:mr-0" src={user.photoURL}></img>}
+              label={<img className="rounded-full w-" src={user.photoURL}></img>}
               arrowIcon={false}
             >
               <Dropdown.Header className="bg-[#FFCE6D] text-[#101418]">
