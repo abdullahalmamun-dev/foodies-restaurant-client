@@ -6,7 +6,7 @@ const All_Foods = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
 
   useEffect(() => {
-    fetch('https://foodies-restaurant-server-qbfedtxj6.vercel.app/menu')
+    fetch('https://foodies-restaurant-server.vercel.app/menu')
       .then((res) => res.json())
       .then((data) => setAll_Foods(data));
   }, []);

@@ -48,12 +48,12 @@ import BookNow from "../pages/booknow/OrderNow";
         {
           path: "/AllFoods/:id",
           element: <Menu></Menu>,
-          loader: ({params}) => fetch(`https://foodies-restaurant-server-qbfedtxj6.vercel.app/menu/${params.id}`)
+          loader: ({params}) => fetch(`https://foodies-restaurant-server.vercel.app/menu/${params.id}`)
         },
         {
           path: "/ordernow/:id",
           element: <BookNow></BookNow>,
-          loader: ({params}) => fetch(`https://foodies-restaurant-server-qbfedtxj6.vercel.app/menu/${params.id}`)
+          loader: ({params}) => fetch(`https://foodies-restaurant-server.vercel.app/menu/${params.id}`)
         }
       ]
     },
