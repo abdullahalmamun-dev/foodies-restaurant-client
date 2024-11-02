@@ -4,31 +4,45 @@ const Team = () => {
       <h1 className="text-3xl md:text-4xl pb-16 md:pb-10 text-[#FFCE6D] dancing text-center md:mb-10 mb-4">
         Our Team
       </h1>
-      <div className="md:flex gap-5 justify-center md:mx-0 mx-5 md:space-y-0 space-y-10" >
+      <div className="md:flex gap-5 justify-center md:mx-0 mx-5 md:space-y-0 space-y-10">
         <div className="bg-slate-500 bg-opacity-20 md:p-4 rounded-sm p-2 mb-2">
-            <img className="w-full" src="/Team/1.png" alt="" />
-            <h1 className="text-[#FFC] text-center text-lg md:text-2xl">Johnathan Demario</h1>
-            <h3 className="text-white text-center text-md md:text-xl">Founder</h3>
-            <p className="text-white text-center text-xs md:text-lg">In velit auctor non auctor in. Id pellentesque facilisis at lectus sed in sit tellus mauris.</p>
+          <img className="w-full h-96" src="/Team/1.png" alt="" />
+          <h1 className="text-[#FFC] text-center text-lg md:text-2xl">
+            Johnathan Demario
+          </h1>
+          <h3 className="text-white text-center text-md md:text-xl">Founder</h3>
+          <p className="text-white text-center text-xs md:text-lg">
+            In velit auctor non auctor in. Id pellentesque facilisis at lectus
+            sed in sit tellus mauris.
+          </p>
         </div>
         <div className="bg-slate-500 bg-opacity-20 md:p-4 rounded-sm p-2 mb-2">
-            <img className="w-full" src="/Team/2.png" alt="" />
-            <h1 className="text-[#FFC] text-center text-2xl">Bryan Machado</h1>
-            <h3 className="text-white text-center text-xl">Chef</h3>
-            <p className="text-white text-center text-lg">Duis sed ut dolor viverra porttitor semper et faucibus facilisis. Hac maecenas rhoncus.</p>
+          <img className="w-full h-96" src="/Team/2.png" alt="" />
+          <h1 className="text-[#FFC] text-center text-2xl">Bryan Machado</h1>
+          <h3 className="text-white text-center text-xl">Chef</h3>
+          <p className="text-white text-center text-lg">
+            Duis sed ut dolor viverra porttitor semper et faucibus facilisis.
+            Hac maecenas rhoncus.
+          </p>
         </div>
         <div className="bg-slate-500 bg-opacity-20 md:p-4 rounded-sm p-2 mb-2">
-            <img className="w-full" src="/Team/3.png" alt="" />
-            <h1 className="text-[#FFC] text-center text-2xl">Adam Joseph</h1>
-            <h3 className="text-white text-center text-xl">Chef</h3>
-            <p className="text-white text-center text-lg">Faucibus sed vitae dui Egestas ipsum ut a elementum at laoreet at quam vitae.</p>
+          <img className="w-full h-96" src="/Team/3.png" alt="" />
+          <h1 className="text-[#FFC] text-center text-2xl">Adam Joseph</h1>
+          <h3 className="text-white text-center text-xl">Chef</h3>
+          <p className="text-white text-center text-lg">
+            Faucibus sed vitae dui Egestas ipsum ut a elementum at laoreet at
+            quam vitae.
+          </p>
         </div>
 
-        <div className="bg-slate-500 bg-opacity-20 md:p-4 rounded-sm p-2 mb-2"   >
-            <img className="w-full" src="/Team/4.png" alt="" />
-            <h1 className="text-[#FFC] text-center text-2xl">Putin Desque</h1>
-            <h3 className="text-white text-center text-xl">Chef</h3>
-            <p className="text-white text-center text-lg">Molestie viverra mattis nisl vitae orci feugiat in. Aliquet quis orci turpis aliquet.</p>
+        <div className="bg-slate-500 bg-opacity-20 md:p-4 rounded-sm p-2 mb-2">
+          <img className="w-full h-96" src="/Team/4.png" alt="" />
+          <h1 className="text-[#FFC] text-center text-2xl">Putin Desque</h1>
+          <h3 className="text-white text-center text-xl">Chef</h3>
+          <p className="text-white text-center text-lg">
+            Molestie viverra mattis nisl vitae orci feugiat in. Aliquet quis
+            orci turpis aliquet.
+          </p>
         </div>
       </div>
     </div>
