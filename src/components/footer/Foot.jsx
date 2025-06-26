@@ -39,7 +39,10 @@ const Foot = () => {
         </div>
         <Footer.Divider />
         <div className="w-full sm:flex sm:items-center sm:justify-between">
-          <Footer.Copyright href="/" by="Emperal Tech" year={2024} className="text-[#FFC]" />
+<a href="https://abdullahalmamun.tech/">
+            <Footer.Copyright href="/" by="Abdullah Al Mamun" year={2024} className="text-[#FFC]" />
+
+</a>
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
             <Footer.Icon href="#" className="text-[#FFC]" icon={BsFacebook} />
             <Footer.Icon href="#" className="text-[#FFC]" icon={BsInstagram} />
